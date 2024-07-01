@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block header %}
+   <h1>Регистрация</h1>
+{% endblock header %}
+{% block content %}
+    <h1>Создайте личный кабинет</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+{% endblock content %}

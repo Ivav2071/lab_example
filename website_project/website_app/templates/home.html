@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block header %}
+   <h1>Учетная запись пользователя</h1>
+{% endblock header %}
+{% block content %}
+    <h1>Личный кабинет</h1>
+
+<li><a href="{% url 'order' %}">Оформить заказ</a></li>
+{% endblock content %}

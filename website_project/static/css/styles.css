@@ -1,0 +1,53 @@
+body {
+  background-image: url('/static/images/home.jpg');
+  background-size: cover;
+  padding: 20px;
+  margin: 0;
+  font-family: cursive;
+}
+.div-60 {
+  float: left;
+  width: 60%;
+  padding: 0 50px 100px  ;
+}
+.div-200 a:hover {
+  background: grey;
+  color: black;
+}
+.div-200 a {
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  position: relative;
+  transition: .3s linear;
+
+}
+.div-200 li{margin: 20px 0 0 0;}
+.div-200 {
+  float: left;
+  width: 200px;
+  background-color: ghostwhite ;
+  padding:20px 30px 800px ;
+  border: 1px solid black;
+  font-family: cursive;
+  background-size: cover;
+  box-shadow: 20px 20px 80px rgba(0,0,0,.1) ;
+}
+
+
+.vacancy {
+     background-color: ghostwhite ;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 15px 5px 5px;
+}
+table, th, td {
+    background-color: ghostwhite ;
+    margin: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
